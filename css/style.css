@@ -1,3 +1,11 @@
+.s p {
+  margin-bottom: 2px;
+}
+
+.header-back {
+  background-color: #20232a;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
 body {
   font-family: "Open Sans", sans-serif;
@@ -657,6 +665,22 @@ a:focus {
   border: none;
   margin-top: 15px;
 }
+
+.form-submit-button:hover {
+
+  background: #016ABC;
+  
+  color: #fff;
+  
+  border: 1px solid #eee;
+  
+  border-radius: 20px;
+  
+  box-shadow: 5px 5px 5px #eee;
+  
+  text-shadow:none;
+  
+  }
 
 .about_section .detail-box a:hover {
   background-color: #e69c00;
